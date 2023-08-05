@@ -22,7 +22,8 @@ public class Utility {
 		FileInputStream file = null;
 		try {
 
-			file = new FileInputStream("C:\\Users\\ramko\\git\\JioMart\\MakeMyTrip\\Configuration\\config.properties");
+			file = new FileInputStream(
+					"C:\\Users\\ramko\\git\\MakeMyTripp\\MakeMyTrip\\Configuration\\config.properties");
 		} catch (FileNotFoundException e) {
 
 			e.printStackTrace();
