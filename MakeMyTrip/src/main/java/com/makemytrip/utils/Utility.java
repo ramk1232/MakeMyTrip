@@ -35,7 +35,7 @@ public class Utility {
 		String value = p.getProperty(url);
 		return value;
 	}
-
+	
 	public static void captureScreenshot(WebDriver driver, int testID) throws IOException {
 
 		DateTimeFormatter date = DateTimeFormatter.ofPattern("yyyy-MM-dd HH mm ss");
